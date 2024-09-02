@@ -1,0 +1,10 @@
+docker pull mcr.microsoft.com/mssql/server:2022-latest
+
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=yourStrong(!)Password" -p 1400:1433 -d mcr.microsoft.com/mssql/server:2022-latest
+
+connection string: localhost,1400
+auth mode: sql server
+username: sa
+password: yourStrong(!)Password
+
+https://docs.docker.com/reference/cli/docker/
