@@ -4,6 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>69296499-a4b1-4f91-98c6-3fb52c154239</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -11,6 +13,7 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.2" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.2" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.2" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
 		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.1" />
 		<PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
 		<PackageReference Include="Serilog.Sinks.Seq" Version="7.0.0" />
