@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>69296499-a4b1-4f91-98c6-3fb52c154239</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	<ContainerRepository>ConferenceAttendees.Api.Publish</ContainerRepository>
   </PropertyGroup>
 
 	<ItemGroup>
