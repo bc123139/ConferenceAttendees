@@ -29,10 +29,10 @@ using (var scope = app.Services.CreateScope())
     try
     {
         var applicationDbContext = services.GetRequiredService<ApplicationDbContext>();
-        if (applicationDbContext.Database.IsSqlServer())
-        {
-            await applicationDbContext.Database.MigrateAsync();
-        }
+        //if (applicationDbContext.Database.IsSqlServer())
+        //{
+        //    await applicationDbContext.Database.MigrateAsync();
+        //}
     }
     catch (Exception ex)
     {
